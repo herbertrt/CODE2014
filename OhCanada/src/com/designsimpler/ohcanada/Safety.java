@@ -2,7 +2,9 @@ package com.designsimpler.ohcanada;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class Safety extends Activity {
 
@@ -19,4 +21,8 @@ public class Safety extends Activity {
 		return true;
 	}
 
+	public void choosePolicePresence(View view) {
+	    Intent intent = new Intent(this, PolicePresence.class);
+	    startActivity(intent);
+	}
 }
