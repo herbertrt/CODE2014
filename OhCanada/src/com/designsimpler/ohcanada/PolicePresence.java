@@ -27,9 +27,9 @@ public class PolicePresence extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_police_presence);
 		
-		/*
+		
 		try {
-			URL urlobj = new URL(" http://namara.io/api/v0/resources/7cb31a66-2f19-4c2a-9bdc-7176a342981c/data?api_key=097496a85611786bd3f1b6670ede38f814bdc56eaf569bda316f101aa5f172dc&order=%7B%22column%22:5,%22direction%22:0%7D&where=[%7B%22column%22:0,%22selector%22:%22eq%22,%22value%22:%222012%22%7D]&limit=10");
+			URL urlobj = new URL(" http://namara.io/api/v0/resources/7cb31a66-2f19-4c2a-9bdc-7176a342981c/data?api_key=097496a85611786bd3f1b6670ede38f814bdc56eaf569bda316f101aa5f172dc&order=%7B%22column%22:5,%22direction%22:0%7D&where=[%7B%22column%22:0,%22selector%22:%22eq%22,%22value%22:%222012%22%7D,%7B%22column%22:2,%22selector%22:%22eq%22,%22value%22:%22Police-civilian%20ratio%22%7D]&limit=10");
  
 						
 			URLConnection yc = urlobj.openConnection();
@@ -42,7 +42,8 @@ public class PolicePresence extends Activity {
 			JSONArray SecondArray=null;
 			String element=null;
 			JSONArray FirstArray = new JSONArray(inputLine);
-
+			
+			name = new String[FirstArray.length()];
     
 
 			for(int j=0;j<FirstArray.length();j++)  
@@ -56,7 +57,7 @@ public class PolicePresence extends Activity {
 				{
 		
 			         element = SecondArray.get(i).toString();
-			         if (i == 5)
+			         if (i == 1)
 			         	name[j] = element;
 		
 				}
@@ -69,7 +70,7 @@ public class PolicePresence extends Activity {
             error = "IO Error";
         } catch (JSONException e2){
             error = "JSON Error";
-		}*/
+		}
 		//showDialogue("Testing");
 
 		
