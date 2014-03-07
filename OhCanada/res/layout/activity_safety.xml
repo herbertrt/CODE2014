@@ -29,10 +29,11 @@
 	        android:onClick="choosePolicePresence" />
 	
 	    <Button
-	        android:id="@+id/climate"
+	        android:id="@+id/crimeseverity"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="@string/crime_rate" />    
+	        android:text="@string/crime_rate"
+	        android:onClick="chooseCrimeSeverity" />    
 	        
 	</LinearLayout>
 </LinearLayout>

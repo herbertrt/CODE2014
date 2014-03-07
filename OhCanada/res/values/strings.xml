@@ -11,6 +11,6 @@
     <string name="title_activity_safety">Safety</string>
     <string name="police_presence">Police Presence</string>
     <string name="crime_rate">Crime Rate</string>
-    <string name="title_activity_police_presence">Police Presence</string>
+    <string name="title_activity_results">Results</string>
 
 </resources>

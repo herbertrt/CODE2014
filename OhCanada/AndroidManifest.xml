@@ -29,8 +29,8 @@
             android:label="@string/title_activity_safety" >
         </activity>
         <activity
-            android:name="com.designsimpler.ohcanada.PolicePresence"
-            android:label="@string/title_activity_police_presence" >
+            android:name="com.designsimpler.ohcanada.Results"
+            android:label="@string/title_activity_results" >
         </activity>
     </application>
 
