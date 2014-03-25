@@ -29,4 +29,10 @@ public class Welcome extends Activity {
 	    startActivity(intent);
 	}
 	
+	/** Called when the user clicks the Send button */
+	public void chooseClimate(View view) {
+	    Intent intent = new Intent(this, GridLayout.class);
+	    startActivity(intent);
+	}
+	
 }
